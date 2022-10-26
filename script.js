@@ -64,6 +64,10 @@ restart_quiz.onclick = () => {
 }
 
 // if quitQuiz button clicked
-quit_quiz.onclick = ()=>{
+quit_quiz.onclick = () => {
     window.location.reload(); //reload the current window
 }
+
+const next_btn = document.querySelector("footer .next_btn");
+const bottom_ques_counter = document.querySelector("footer .total_que");
+
