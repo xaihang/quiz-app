@@ -63,3 +63,7 @@ restart_quiz.onclick = () => {
     next_btn.classList.remove("show");
 }
 
+// if quitQuiz button clicked
+quit_quiz.onclick = ()=>{
+    window.location.reload(); //reload the current window
+}
