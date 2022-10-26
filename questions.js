@@ -14,13 +14,13 @@
 // d.All the above
 // ANSWER: "d", "All the above"
 
-3. What does the following statement declare ?
-var myArray = [[[]]];
-a.The array object
-b.A three - dimensional array
-c.Empty string of data stored in array
-d.Square brackets
-ANSWER: "b", "A three - dimensional array"
+// 3. What does the following statement declare ?
+// var myArray = [[[]]];
+// a.The array object
+// b.A three - dimensional array
+// c.Empty string of data stored in array
+// d.Square brackets
+// ANSWER: "b", "A three - dimensional array"
 
 4. What are the four type of loops in JavaScript ?
     a.for loop, for/in loop, while loop, and do while loop
@@ -74,7 +74,7 @@ ANSWER: "c", "Adding a value as the last item of the array"
 
 {
     numb: 4,
-        question: "Your Question is Here",
+        question: "What are the four type of loops in JavaScript?",
             answer: "Correct answer of the question is here",
                 options: [
                     "Option 1",
