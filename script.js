@@ -32,3 +32,13 @@ continue_btn.onclick = () => {
     startTimerLine(0); //calling startTimerLine function
 }
 
+//elements for continueQuiz buttons
+let timeValue = 25;
+let que_count = 0;
+let que_numb = 1;
+let userScore = 0;
+let counter;
+let counterLine;
+let widthValue = 0;
+
+
