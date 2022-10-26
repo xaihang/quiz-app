@@ -1,40 +1,4 @@
-//Questions and Options 
-
-// 1. What are boolean operators ?
-//     a. && (And)
-// b. || (Or)
-// c. !(Not)
-// d.All the above
-// ANSWER: "d", "All the above"
-
-// 2. What are recognized errors in JavaScript ?
-//     a.Load - time errors
-// b.Runtime errors
-// c.Logics errors
-// d.All the above
-// ANSWER: "d", "All the above"
-
-// 3. What does the following statement declare ?
-// var myArray = [[[]]];
-// a.The array object
-// b.A three - dimensional array
-// c.Empty string of data stored in array
-// d.Square brackets
-// ANSWER: "b", "A three - dimensional array"
-
-4. What are the four type of loops in JavaScript ?
-    a.for loop, for/in loop, while loop, and do while loop
-b.for loop, for each loop, for of loop, and while loop
-c.while loop, loop, function of, and into loop
-d.None of the above
-ANSWER: "a", "for loop, for/in loop, while loop, and do while loop"
-
-5. What is a push method ?
-    a.The number of elements in an array
-b.Adding new properties and methods
-c.Adding a value as the last item of the array
-d.Removing the first item of an array
-ANSWER: "c", "Adding a value as the last item of the array"
+//questions and options for quiz app
 
 {
     numb: 1,
@@ -86,12 +50,12 @@ ANSWER: "c", "Adding a value as the last item of the array"
 
 {
     numb: 5,
-        question: "Your Question is Here",
-            answer: "Correct answer of the question is here",
+        question: "What is a push method?",
+            answer: "Adding a value as the last item of the array",
                 options: [
-                    "Option 1",
-                    "option 2",
-                    "option 3",
-                    "option 4"
+                    "The number of elements in an array",
+                    "Adding new properties and methods",
+                    "Adding a value as the last item of the array",
+                    "Removing the first item of an array"
                 ]
 },
