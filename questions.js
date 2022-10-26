@@ -75,12 +75,12 @@ ANSWER: "c", "Adding a value as the last item of the array"
 {
     numb: 4,
         question: "What are the four type of loops in JavaScript?",
-            answer: "Correct answer of the question is here",
+            answer: "for loop, for/in loop, while loop, and do while loop",
                 options: [
-                    "Option 1",
-                    "option 2",
-                    "option 3",
-                    "option 4"
+                    "for loop, for/in loop, while loop, and do while loop",
+                    "for loop, for each loop, for of loop, and while loop",
+                    "while loop, loop, function of, and into loop",
+                    "None of the above"
                 ]
 },
 
