@@ -80,7 +80,7 @@ body {
 
 .info_box .info-list .info span {
     font-weight: 600;
-    color: #007bff;
+    color: #ed0b70;
 }
 
 .info_box .buttons {
@@ -102,7 +102,7 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #ed0b70;
     transition: all 0.3s ease;
 }
 
@@ -172,7 +172,7 @@ body {
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: #ed0b70;
 }
 
 section {
@@ -287,8 +287,8 @@ footer button {
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: #ed0b70;
+    border: 1px solid #ed0b70;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -365,19 +365,19 @@ footer button.show {
 
 .buttons button.restart {
     color: #fff;
-    background: #007bff;
+    background: #ed0b70;
 }
 
 .buttons button.restart:hover {
-    background: #0263ca;
+    background: #4cbfa6;
 }
 
 .buttons button.quit {
-    color: #007bff;
+    color: #ed0b70;
     background: #fff;
 }
 
 .buttons button.quit:hover {
     color: #fff;
-    background: #007bff;
+    background: #ed0b70;
 }
