@@ -1,18 +1,16 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Quiz Appl</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+
 </head>
 
 <body>
-
-
-
     <!-- start Quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
 
@@ -22,9 +20,9 @@
         <div class="info-list">
             <div class="info">1. You will have only <span>25 seconds</span> per each question.</div>
             <div class="info">2. Once you select your answer, it can't be undone.</div>
-            <div class="info">3. Incorrect answers will penalize your time by 5 seconds!</div>
+            <div class="info">3. Incorrect answer will penalty time deduction.</div>
             <div class="info">4. You can't exit from the Quiz while you're playing.</div>
-            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+            <div class="info">5. Enter your name to see highscores.</div>
         </div>
         <div class="buttons">
             <button class="quit">Exit Quiz</button>
@@ -35,32 +33,30 @@
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="title">JavaScript Quiz</div>
+            <div class="title">JavaScripts Quiz</div>
             <div class="timer">
                 <div class="time_left_txt">Time Left</div>
-                <div class="timer_sec">25</div>
+                <div class="timer_sec">15</div>
             </div>
             <div class="time_line"></div>
         </header>
         <section>
             <div class="que_text">
-
+                <!-- Here I've inserted question from JavaScript -->
             </div>
             <div class="option_list">
-
+                <!-- Here I've inserted options from JavaScript -->
             </div>
         </section>
-
 
         <!-- footer of Quiz Box -->
         <footer>
             <div class="total_que">
-                <!-- Question Count Number from JavaScript -->
+                <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
-            <button class="next_btn">Next Question</button>
+            <button class="next_btn">Next</button>
         </footer>
     </div>
-
 
     <!-- Result Box -->
     <div class="result_box">
@@ -69,8 +65,7 @@
         </div>
         <div class="complete_text">You've completed the Quiz!</div>
         <div class="score_text">
-
-            <!-- Score Result from JavaScript -->
+            <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
             <button class="restart">Replay Quiz</button>
@@ -78,16 +73,12 @@
         </div>
     </div>
 
-
-    <div class="wrapper">
-        <h4>Highscores</h4>
-        <ol id="highscores"></ol>
-
-        <button id="clear">Clear Highscores</button>
-    </div>
-
-    <!--JavaScript file for questions and options only -->
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
     <script src="/assets/js/questions.js"></script>
-    <!-- JavaScript file for all Quiz Codes -->
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
     <script src="/assets/js/script.js"></script>
+
 </body>
+
+</html>
