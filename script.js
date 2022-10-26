@@ -12,7 +12,13 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
-// if startQuiz button clicked
+// when startQuiz button is clicked, show info box
 start_btn.onclick = () => {
-    info_box.classList.add("activeInfo"); //show info box
+    info_box.classList.add("activeInfo");
 }
+
+// when exitQuiz button clicked, hide info box
+exit_btn.onclick = () => {
+    info_box.classList.remove("activeInfo");
+}
+
